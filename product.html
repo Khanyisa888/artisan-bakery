@@ -3,38 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Khanyisa's Artisan Bakery - Products</title>
+    <meta name="description" content="Explore Khanyisa's Artisan Bakery product offerings, including fresh sourdough, croissants, and celebration cakes.">
+    <title>Products - Khanyisa's Artisan Bakery</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>Khanyisa's Artisan Bakery</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about">About Us</a></li>
-                <li><a href="product.html">Products</a></li>
-                <li><a href="enquiry.html">Enquiry</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Khanyisa's Artisan Bakery</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section class="products-list">
+    <main class="container">
+        <section>
             <h2>Our Daily Offerings</h2>
             <p>Explore our selection of freshly baked goods made with premium ingredients daily.</p>
             
-            <ul>
-                <li><strong>Sourdough Bread:</strong> Crisp on the outside, soft and chewy on the inside, fermented to perfection.</li>
-                <li><strong>Croissants:</strong> Flaky, buttery, traditional French-style pastries baked golden brown.</li>
-                <li><strong>Custom Celebration Cakes:</strong> Personalized birthday and wedding cakes tailored to your vision.</li>
-                <li><strong>Coffee Beverages:</strong> Freshly brewed barista coffee to pair with your morning pastry.</li>
-            </ul>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="image/sourdough.jpg" alt="Artisanal Sourdough Bread">
+                    <h3>Sourdough Bread</h3>
+                    <p>Crisp on the outside, soft and chewy on the inside.</p>
+                </div>
+                <div class="product-card">
+                    <img src="image/croissant.jpg" alt="Golden Butter Croissants">
+                    <h3>Croissants</h3>
+                    <p>Flaky, buttery, traditional French-style pastries.</p>
+                </div>
+                <div class="product-card">
+                    <img src="image/cake.jpg" alt="Custom Celebration Cake">
+                    <h3>Celebration Cakes</h3>
+                    <p>Personalized birthday and wedding cakes tailored to your taste.</p>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Khanyisa's Artisan Bakery. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2026 Khanyisa's Artisan Bakery. All rights reserved.</p>
+        </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
